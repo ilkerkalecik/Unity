@@ -1,12 +1,13 @@
 import React from 'react'
 import style from './Download.module.css'
 import Button from '../Items/Button'
+import DownloadImage from '/src/assets/Images/downloadBackground.avif'
 
 const Download = () => {
     return (
         <div className={style.Conteiner}>
 
-            <div className={style.Download}>
+            <div  style={{backgroundImage:`url(${DownloadImage})`}} className={style.Download}>
                 <h1 className={style.h1}>Download Unity Pro Today</h1>
                 <p className={style.p}>Start creating games that compete with and surpass
                     the quality and success of big studio releases with help from powerful

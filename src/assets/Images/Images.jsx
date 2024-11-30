@@ -7,6 +7,8 @@ import Item4 from './Item4.avif'
 import Item5 from './Item5.avif'
 
 
+import Download from './downloadBackground.avif'
+
 
 
 const Images = {
@@ -20,6 +22,10 @@ const Images = {
         Item3,
         Item4,
         Item5,
+    },
+    
+    Download: {
+        Download
     }
 
 };
