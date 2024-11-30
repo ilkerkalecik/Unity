@@ -1,0 +1,28 @@
+.NavbarItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.items{
+    font-size: 12px;
+    margin: 0px 10px;
+    color: rgb(200, 200, 200);
+    transition: all 0.3s;
+}
+.items:hover{
+    color: white;
+}
+@media only screen and (max-width: 1200px) {
+    .NavbarItems {
+        display: none;
+    }
+}

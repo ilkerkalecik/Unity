@@ -1,0 +1,47 @@
+.BottomHeading{
+    
+    padding: 0 10vw;
+    margin-top: 6rem;
+    
+}
+.h1{
+    color: rgb(6, 6, 6);
+    letter-spacing: 5px;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.p{
+    font-weight: 200;
+    padding: 0 5rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    color: rgb(60, 60, 60);
+    text-align:center;
+}
+.List{
+    margin: 5rem 0;
+    gap: 3rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    justify-content: center;
+    
+}
+
+
+
+@media only screen and (max-width:1200px) {
+    .BottomHeading{
+        padding: 0 6vw;
+
+    }
+    .h1{
+        font-size: 30px;
+    }
+    .p{
+        padding: 0;
+    }
+   
+}

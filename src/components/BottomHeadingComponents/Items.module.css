@@ -1,0 +1,36 @@
+.Items {
+    margin: 5rem 0;
+    gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Image {
+
+   
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    padding: 1em;
+    text-align: center;
+    height: 200px;
+    aspect-ratio: 1/1;
+
+}
+
+@media only screen and (max-width:1200px) {
+    
+    .Image{
+        height: 150px;
+    }
+
+
+}

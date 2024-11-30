@@ -1,0 +1,50 @@
+.BringGame{
+    margin-top: 10rem;
+    display: flex;
+    padding: 6rem 10vw;
+    gap: 1rem 3rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.946);
+}
+
+.h1{
+color: rgb(255, 255, 255);
+letter-spacing: 3px;
+font-weight: 500;
+    
+}
+.p{
+    color: rgb(182, 182, 182); 
+    letter-spacing: 1px;
+    font-weight: 200px;
+}
+.Left{
+    width: 50%;
+}
+.Right{
+    width: 50%;
+}
+.Frame{
+    border-radius: 3px;
+    box-shadow: 0px 3px 2px rgba(40, 169, 255, 0.164);
+    border: 2px solid rgb(0, 162, 226);
+    width: 100%;
+    aspect-ratio: 16/10;
+   
+}
+@media only screen and (max-width:800px) {
+    .BringGame{
+        padding: 5rem 6vw;
+        flex-direction: column-reverse;
+    }
+    .h1{
+        font-size: 30px;
+
+    }
+    .Left{
+        width: 100%;
+    }
+    .Right{
+        width: 100%;
+    }
+}

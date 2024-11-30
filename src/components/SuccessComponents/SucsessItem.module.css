@@ -1,0 +1,21 @@
+.SucsessItem{
+    
+    
+   width: 350px;
+}
+
+.h1{
+    color: rgb(6, 6, 6);
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.p{
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    color: rgb(60, 60, 60);
+   
+}

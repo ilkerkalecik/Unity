@@ -1,0 +1,9 @@
+.logo {
+    margin-right: 50px;
+}
+@media only screen and (max-width:1200px){
+    .logo{
+       width: 2rem;
+       height: 2rem;
+    }
+}

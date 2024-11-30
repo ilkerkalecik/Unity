@@ -1,0 +1,49 @@
+.Sidebar{
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    
+    position: absolute;
+    right: -100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: all 1s;
+   
+}
+.active{
+    right: 0;
+}
+.link{
+    text-decoration: none;
+    
+    text-transform: capitalize;
+    color: rgba(229, 229, 229, 0.881);
+}
+.link:first-child{
+    margin-top: 100px;
+}
+
+.button {
+    background-color: rgb(0, 148, 228);
+    outline: none;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: rgb(222, 222, 222);
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+    letter-spacing: 2px;
+    font-weight:bolder;
+    width: 65%;
+
+}
+.button:hover {
+    background-color: rgb(0, 84, 230);
+    color: rgb(255, 255, 255);
+
+}
